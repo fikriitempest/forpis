@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linktree Forpis</title>
+    <link rel="icon" href="momo.png" sizes="32x32" type="image/png">
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            background-image: url("at.svg");
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .logo img {
+            width: 100px;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .links a {
+            text-decoration: none;
+            background-color: #ff1515;
+            color: #fff;
+            padding: 12px 20px;
+            border-radius: 25px;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        .links a:hover {
+            background-color: #1d1d1a;
+        }
+
+        .s {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 1rem;
+        }
+
+        .s div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .s div p {
+            margin-top: 0.5rem;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px 20px;
+            }
+
+            .links a {
+                padding: 10px 15px;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="logo">
+            <img src="momo.png" alt="Logo">
+        </div>
+        <div class="links">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc6cvCr86vXxOr-GDNFmpK6uLyHljAHDy5ky9hpojgNHCl4uw/viewform"
+                target="_blank">Link Pendaftaran</a>
+            <a href="https://drive.google.com/drive/folders/1qp3bzeatBp5Oh-ARto6-hog8568J3zZS?usp=drive_link" target="_blank">Form Pendaftaran</a>
+            <a href="https://www.contoh.com/twibon" target="_blank">Twibon</a>
+            <a href="https://drive.google.com/drive/folders/1l0tnxmWEkk6m3qhKvdFl1WcQOYnd1yFT?usp=drive_link" target="_blank">Juklak-Juknis</a>
+            <a href="https://drive.google.com/drive/folders/1l0tnxmWEkk6m3qhKvdFl1WcQOYnd1yFT?usp=drive_link" target="_blank">Materi LCC</a>
+
+        </div>
+        <div class="s">
+            <div><a href="https://wa.me/+6283815412214">
+                <img src="wa.svg" alt="" width="50px">
+                </a>
+                <p>Fdia</p>
+            </div>
+
+            <div class="p">
+                <a href="https://www.instagram.com/force_sukoharjo?igsh=MTRuMHM1MXQyaWt2Mw==">
+                <img src="ig.svg" alt="" width="50px">
+                </a>
+                <p>@force_sukoharjo</p>
+            </div>
+
+            <div>
+                <a href="https://wa.me/+6288232956513">
+                <img src="wa.svg" alt="" width="50px">
+                </a>
+                <p>Alma</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
